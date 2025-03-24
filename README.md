@@ -1,3 +1,5 @@
+[![Test](https://github.com/escalate/gettex-stock-price-alert/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/gettex-stock-price-alert/actions/workflows/test.yml)
+
 # Gettex stock price alert
 
 Price alerts for Gettex stock exchange
