@@ -1,0 +1,6 @@
+services:
+  gettex-stock-price-alert-test:
+    container_name: gettex-stock-price-alert-test
+    build:
+      context: .
+      target: test

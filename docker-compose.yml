@@ -1,0 +1,6 @@
+services:
+  gettex-stock-price-alert:
+    container_name: gettex-stock-price-alert
+    image: gettex-stock-price-alert:${DOCKER_IMAGE_TAG:-latest}
+    build:
+      context: .

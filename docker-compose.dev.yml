@@ -1,0 +1,12 @@
+services:
+  gettex-stock-price-alert-dev:
+    container_name: gettex-stock-price-alert-dev
+    build:
+      context: .
+      target: base
+    working_dir: /app
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
