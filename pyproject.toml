@@ -15,7 +15,7 @@ gettex-stock-price-alert = "gettex_stock_price_alert.cli:cli"
 
 [tool.poetry.dependencies]
 click = "^8.1.0"
-loguru = "^0.7.0"
+loguru = "^0.8.0"
 requests = "^2.32.0"
 
 [tool.poetry.group.dev.dependencies]
